@@ -17,7 +17,7 @@ setup(name='stashyEvry',
       test_suite = 'tests',
       #scripts=['bin/stash'],
       #tests_require=open('test-requirements.txt').readlines(),
-      install_requires=open('requirements.txt').readlines(),
+      install_requires=['decorator==3.4.0', 'requests==1.1.0'],
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: Apache Software License',
