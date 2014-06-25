@@ -4,8 +4,8 @@ from setuptools import setup
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-setup(name='stashy',
-      version="0.1",
+setup(name='stashyEvry',
+      version="0.1a1dev0",
       description='Python API client for the Atlassian Stash REST API',
       long_description=read('README.rst'),
       url='http://github.com/RisingOak/stashy',
